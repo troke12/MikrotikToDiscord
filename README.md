@@ -1,6 +1,6 @@
 # Simple Webhook
 
-This script is for my mikrotik netwatch and log into my discord channel, if my devices are down from mikrotik they will automatic posted to my discord channel
+This script is for my mikrotik netwatch and log into my discord channel, if my devices are down from mikrotik they will automatic posted to my discord channel. You can deploy it on Heroku or others services
 
 ## Usage
 
