@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token']))
 {
    $text=$_GET['text'];
