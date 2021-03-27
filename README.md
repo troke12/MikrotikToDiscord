@@ -42,7 +42,7 @@ Pada bagian ini jika kalian tertarik untuk hosting script ini, kalian bisa mengi
 Simpan url tersebut (contoh https://namaprojectkalian.herokuapp.com) untuk next tutorial
 
 # Mikrotik
-Disini saya akan menjelaskannya secara singkat, dimana kalian cukup menambahkan code ini disetiap `mikrotik scripts` kalian
+Disini saya akan menjelaskannya secara singkat, dimana kalian cukup menambahkan code ini disetiap `mikrotik scripts` kalian, terima kasih kepada mas [Heru](https://github.com/therusetiawan) karena sudah memberi petunjuk kepada saya :smiley:
 
 ```java
 /tool fetch url="https://namaprojectkalian.herokuapps.com/form.php?text=MASUKIN_TEXT_KALIAN&id=MASUKAN_ID_WEBHOOK&token=MASUKKAN_TOKEN_WEBHOOK" keep-result=no;
