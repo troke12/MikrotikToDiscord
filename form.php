@@ -20,14 +20,8 @@ if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token'])) {
 
    $response = curl_exec( $ch );
    curl_close( $ch );
-
+   echo "Sukses mengirim pesan ke discord";
 } else {
    echo "VARIABLE BELUM DISET";
-}
-
-if(empty($text) || empty($id) || empty($token)) {
-   echo "VARIABLE KOSONG!";
-} else {
-   echo "Sukses";
 }
 ?>
