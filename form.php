@@ -1,7 +1,6 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token']))
-{
+if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token'])) {
    $text=$_GET['text'];
    $id=$_GET['id'];
    $token=$_GET['token'];
@@ -22,21 +21,13 @@ if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token']))
    $response = curl_exec( $ch );
    curl_close( $ch );
 
-}
-
-else
-{
-   header("Location:form.php?error=variabel_belum_diset");
+} else {
    echo "VARIABLE BELUM DISET";
 }
 
-if(empty($text))
-{
-   header("Location:form.php?error=text_kosong");
+if(empty($text) || empty($id) || empty($token)) {
    echo "VARIABLE KOSONG!";
-}
-else
-{
+} else {
    echo "Sukses";
 }
 ?>
