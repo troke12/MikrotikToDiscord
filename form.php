@@ -27,11 +27,13 @@ if (isset($_GET['text']) AND isset($_GET['id']) AND isset($_GET['token']))
 else
 {
    header("Location:form.php?error=variabel_belum_diset");
+   echo "VARIABLE BELUM DISET";
 }
 
 if(empty($text))
 {
    header("Location:form.php?error=text_kosong");
+   echo "VARIABLE KOSONG!";
 }
 else
 {
