@@ -58,9 +58,11 @@ Keterangan URL Webhook Discord yang kalian simpan tadi :
 - Pada bagian angka `7939909737777777` itu adalah `id` kalian
 - Pada bagian terakhir `REl22gJR5WIp0I7BwCiMu2UPHG3_jXMNPddddddddddddddddna9EmmW39buWI3` itu adalah `token` kalian
 
-### Contoh penggunaan pada mikrotik netwatch
-## Settingan pada netwatch Up
+## Contoh penggunaan pada mikrotik netwatch
+### Settingan pada netwatch Up
 ![image](https://user-images.githubusercontent.com/10250068/112728650-4067a280-8f63-11eb-8945-da7d2cec3184.png)
-## Hasilnya
+### Hasilnya
 ![image](https://user-images.githubusercontent.com/10250068/112728601-10200400-8f63-11eb-95cd-1378b27458c0.png)
 
+# Finish
+Jadi sekian dari saya jika bermanfaat klik stars pada repository ini!
