@@ -45,11 +45,11 @@ Simpan url tersebut (contoh https://namaprojectkalian.herokuapp.com) untuk next 
 # Mikrotik
 Disini saya akan menjelaskannya secara singkat, dimana kalian cukup menambahkan code ini disetiap `mikrotik scripts` kalian, terima kasih kepada mas [Heru](https://github.com/therusetiawan) karena sudah memberi petunjuk kepada saya :smiley:
 
-```java
-/tool fetch url="https://namaprojectkalian.herokuapps.com/form.php?text=MASUKIN_TEXT_KALIAN&id=MASUKAN_ID_WEBHOOK&token=MASUKKAN_TOKEN_WEBHOOK" keep-result=no;
+```bash
+/tool fetch url="https://trokewebhook.herokuapp.com/form.php?text=MASUKIN_TEXT_KALIAN&id=MASUKAN_ID_WEBHOOK&token=MASUKKAN_TOKEN_WEBHOOK" keep-result=no;
 ```
 Keterangan :
-- pada bagian url itu adalah url dari apps yang sudah kalian deploy ke heroku tadi
+- pada bagian `trokewebhook.herokuapp.com` itu adalah url dari apps yang sudah saya deploy ke heroku, jadi tinggal pakai saja kalau ga mau ribet
 - pada bagian `MASUKIN_TEXT_KALIAN` kalian bebas mengisi apa aja sesuai kebutuhan, untuk spasi wajib gunakan tanda `+` contoh (SAYA+GILA+SEKALI)
 - pada bagian `MASUKAN_ID_WEBHOOK` gunakanlah ID WEBHOOK yang kalian simpan tadi
 - pada bagian `MASUKAN_TOKEN_WEBHOOK` gunakanlah TOKEN WEBHOOK yang kalian simpan tadi
