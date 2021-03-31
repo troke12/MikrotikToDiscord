@@ -10,7 +10,30 @@ Ini adalah script yang digunakan untuk mengirimkan Log Hotspot dan lain-lain yan
 | Webhook Discord | Webhook Discord kalian juga harus sudah siap |
 | Heroku | Ini adalah layanan cloud hosting untuk menaruh script ini secara online dan ini gratis dan juga ini hanyalah optional, kalian bisa menggunakan script yang sudah saya deploy ke heroku nanti |
 
-# Discord
+## Contoh penggunaan pada mikrotik netwatch
+### Settingan pada netwatch Up
+![image](https://user-images.githubusercontent.com/10250068/112728650-4067a280-8f63-11eb-8945-da7d2cec3184.png)
+### Hasilnya
+![image](https://user-images.githubusercontent.com/10250068/112728601-10200400-8f63-11eb-95cd-1378b27458c0.png)
+
+# Mikrotik
+Disini saya akan menjelaskannya secara singkat, dimana kalian cukup menambahkan code ini disetiap `mikrotik scripts` kalian, terima kasih kepada mas [Heru](https://github.com/therusetiawan) karena sudah memberi petunjuk kepada saya :smiley:
+
+```bash
+/tool fetch url="https://trokewebhook.herokuapp.com/form.php?text=MASUKIN_TEXT_KALIAN&id=MASUKAN_ID_WEBHOOK&token=MASUKKAN_TOKEN_WEBHOOK" keep-result=no;
+```
+Keterangan :
+- pada bagian `trokewebhook.herokuapp.com` itu adalah url dari apps yang sudah saya deploy ke heroku, jadi tinggal pakai saja kalau ga mau ribet
+- pada bagian `MASUKIN_TEXT_KALIAN` kalian bebas mengisi apa aja sesuai kebutuhan, untuk spasi wajib gunakan tanda `+` contoh (SAYA+GILA+SEKALI)
+- pada bagian `MASUKAN_ID_WEBHOOK` gunakanlah ID WEBHOOK yang kalian simpan tadi
+- pada bagian `MASUKAN_TOKEN_WEBHOOK` gunakanlah TOKEN WEBHOOK yang kalian simpan tadi
+
+Keterangan URL Webhook Discord :
+`https://discord.com/api/webhooks/7939909737777777/REl22gJR5WIp0I7BwCiMu2UPHG3_jXMNPddddddddddddddddna9EmmW39buWI3`
+- Pada bagian angka `7939909737777777` itu adalah `id` kalian
+- Pada bagian terakhir `REl22gJR5WIp0I7BwCiMu2UPHG3_jXMNPddddddddddddddddna9EmmW39buWI3` itu adalah `token` kalian
+
+# Membuat Discord Webhook
 Disini saya beranggapan kalian sudah memiliki sebuah server discord dan untuk membuat discord webhook bisa kalian simak dibawah ini :
 
 - Pertama kalian harus membuka **Server Settings** terlebih dahulu
@@ -41,29 +64,6 @@ Pada bagian ini jika kalian tertarik untuk hosting script ini, kalian bisa mengi
 - Ketujuh tunggu hingga proses selesai dan berisikan tulisan `Your app was successfully deployed.` pada tombol View disana itulah yang akan jadi url scripts ini nanti
 
 Simpan url tersebut (contoh https://namaprojectkalian.herokuapp.com) untuk next tutorial
-
-# Mikrotik
-Disini saya akan menjelaskannya secara singkat, dimana kalian cukup menambahkan code ini disetiap `mikrotik scripts` kalian, terima kasih kepada mas [Heru](https://github.com/therusetiawan) karena sudah memberi petunjuk kepada saya :smiley:
-
-```bash
-/tool fetch url="https://trokewebhook.herokuapp.com/form.php?text=MASUKIN_TEXT_KALIAN&id=MASUKAN_ID_WEBHOOK&token=MASUKKAN_TOKEN_WEBHOOK" keep-result=no;
-```
-Keterangan :
-- pada bagian `trokewebhook.herokuapp.com` itu adalah url dari apps yang sudah saya deploy ke heroku, jadi tinggal pakai saja kalau ga mau ribet
-- pada bagian `MASUKIN_TEXT_KALIAN` kalian bebas mengisi apa aja sesuai kebutuhan, untuk spasi wajib gunakan tanda `+` contoh (SAYA+GILA+SEKALI)
-- pada bagian `MASUKAN_ID_WEBHOOK` gunakanlah ID WEBHOOK yang kalian simpan tadi
-- pada bagian `MASUKAN_TOKEN_WEBHOOK` gunakanlah TOKEN WEBHOOK yang kalian simpan tadi
-
-Keterangan URL Webhook Discord yang kalian simpan tadi :
-`https://discord.com/api/webhooks/7939909737777777/REl22gJR5WIp0I7BwCiMu2UPHG3_jXMNPddddddddddddddddna9EmmW39buWI3`
-- Pada bagian angka `7939909737777777` itu adalah `id` kalian
-- Pada bagian terakhir `REl22gJR5WIp0I7BwCiMu2UPHG3_jXMNPddddddddddddddddna9EmmW39buWI3` itu adalah `token` kalian
-
-## Contoh penggunaan pada mikrotik netwatch
-### Settingan pada netwatch Up
-![image](https://user-images.githubusercontent.com/10250068/112728650-4067a280-8f63-11eb-8945-da7d2cec3184.png)
-### Hasilnya
-![image](https://user-images.githubusercontent.com/10250068/112728601-10200400-8f63-11eb-95cd-1378b27458c0.png)
 
 # Finish
 Jadi sekian dari saya jika bermanfaat klik stars pada repository ini!
