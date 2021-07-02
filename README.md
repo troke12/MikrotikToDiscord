@@ -1,6 +1,8 @@
 # Mikrotik To Discord
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/troke12/MikrotikToDiscord)
 
+[English Tutorial](https://forum.mikrotik.com/viewtopic.php?f=9&t=173923)
+
 Ini adalah script yang digunakan untuk mengirimkan Log Hotspot dan lain-lain yang ada di Mikrotik ke aplikasi gaming chat yang bernama Discord, Discord sendiri memiliki sebuah webhook yang mudah dipakai, kalian bisa melihat dokumentasinya [disini](https://discord.com/developers/docs/resources/webhook), sebenarnya script ini tidak hanya untuk di mikrotik saja, melainkan bisa dimana aja yang menggunakan webhook discord, karena kebetulan saya memiliki RT/RW NET di rumah yang menggunakan perangkat dari Mikrotik dan digunakan untuk memantau jaringan RT/RW NET saya seperti hotspot dan lain-lainnya yang awalnya menggunakan bot telegram untuk memantaunya tapi karena saya lebih sering menggunakan Discord dan juga sering bereksperimen jadi saya putuskan untuk membuat script ini, simak cara penggunaannya dibawah ya!
 
 # Hal-hal yang harus dibutuhkan
