@@ -1,6 +1,6 @@
 {
   "name": "Mikrotik To Discord",
-  "description": "Script yang berguna untuk mengirimkan pesan dari mikrotik ke discord",
+  "description": "Monitor your mikrotik devices from discord easily!",
   "repository": "https://github.com/troke12/MikrotikToDiscord",
   "logo": "https://cdn.discordapp.com/attachments/701452257102921738/825425600394166382/mikrotiktodiscord.png",
   "keywords": ["mikrotik", "heroku", "php", "webhook", "discord-channel", "webhook-discord"]
